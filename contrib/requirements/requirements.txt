@@ -1,12 +1,13 @@
 qrcode
-protobuf>=3.12
+protobuf>=3.20.3,<4
 aiorpcx>=0.18.7,<0.19
 aiohttp>=3.3.0,<4.0.0
 aiohttp_socks>=0.3
 certifi
 bitstring
 attrs>=19.2.0
-x11_hash==1.4
+x11_hash==1.4 # for now
+dash-hash>=1.4
 python-bls>=0.1.8
 Pygments>=2.1
 

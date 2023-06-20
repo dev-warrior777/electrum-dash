@@ -32,7 +32,8 @@ from typing import Union
 
 from .util import assert_bytes, InvalidPassword, to_bytes, to_string, WalletFileException, versiontuple
 from .i18n import _
-from .x11hash import getPoWHash
+from .dash_hash import getPoWHash
+from .x11hash import getPoWHash as getX11PoWHash
 from .logging import get_logger
 
 
